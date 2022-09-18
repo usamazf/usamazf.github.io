@@ -1,0 +1,14 @@
+#rcorners1 {
+  border-radius: 10px;
+  background:var(--bs-teal); 
+  height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.nav-test + .nav-test {
+  margin-left: 0.65rem;
+  margin-bottom: 0.5rem;  
+}
