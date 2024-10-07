@@ -11,19 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Scientific Computing, Uppsala University, 2028 (expected)
+* M.S. in Advanced Computing Science, Tsinghua University, 2019
+* B.E. in Software Engineering, National University of Sciences and Technology (NUST), 2015
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2024: MS Project Supervisor
+  * Uppsala University
+  * Duties includes: Supervision
 
-* Fall 2015: Research Assistant
-  * Github University
+* Spring 2024: Teaching Assistant
+  * Uppsala University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
