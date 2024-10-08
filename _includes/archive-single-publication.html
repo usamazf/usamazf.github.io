@@ -15,7 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <ul>
-      <li>{{post.authors}}. <a style="display: block;" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> <i>{{ post.venue }}</i>, {{post.date | default: "1900-01-01" | date: "%Y" }}. <a href=" {{ post.paperurl }} ">Download Paper</a></li>
+      <li>{{post.authors}}. <a style="display: block;" href="{{ base_path }}{{ post.url }}" rel="permalink" title="Read more about this paper">{{ title }}</a> <i>{{ post.venue }}</i>, {{post.date | default: "1900-01-01" | date: "%Y" }}. <a href=" {{ post.paperurl }} " title="Download Paper">[PDF]</a></li>
     </ul>
   </article>
 </div>
