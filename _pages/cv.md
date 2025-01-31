@@ -15,9 +15,6 @@ redirect_from:
 * B.E. in Software Engineering, National University of Sciences and Technology (NUST), 2015
 
 ## Work experience
-* Fall 2024: MS Project Supervisor
-  * Uppsala University
-  * Duties includes: Supervision
 
 * Dec 2021 – Dec 2022: Freelance Developer
   * Freelancer.com
@@ -45,17 +42,20 @@ redirect_from:
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+<!--   
 ## Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+-->
+<!--   
 ## Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}</ul> 
+-->
+
 ## Awards & Achievements
 * Listed among the top 1% of freelancers on Freelancer.com based on client satisfaction and project success.  
 * Awarded the Chancellor's Silver Medal for academic excellence during Bachelor’s studies at NUST.
