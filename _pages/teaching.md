@@ -7,7 +7,7 @@ excerpt: "Teaching"
 
 ## Academic Year 2025 (Uppsala University)
 ### Spring
-- ITD169 - Data Engineering I (DE-I)
+- 1TD169 - Data Engineering I (DE-I)
 
 
 ## Academic Year 2024 (Uppsala University)
