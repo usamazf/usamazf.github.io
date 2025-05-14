@@ -21,7 +21,7 @@ repository               : "usamazf/usamazf.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.jpg"
+  avatar           : "me3.jpg"
   name             : "Usama Zafar"
   bio              : "Exploring robustness, privacy, and trust in federated and decentralized AI systems."
   location         : "Uppsala, Sweden"
