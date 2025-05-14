@@ -47,7 +47,7 @@ $masthead-height            : 70px;
 
 /* Sidebar properties */
 $sidebar-screen-min-width   : 1024px;
-$sidebar-link-max-width     : 300px;
+$sidebar-link-max-width     : 250px;
 
 
 
@@ -140,8 +140,8 @@ $x-large                    : 1800px !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow :   0px !default;
-$right-sidebar-width        :  50px !default;
-$right-sidebar-width-wide   : 200px !default;
+$right-sidebar-width        :   0px !default;
+$right-sidebar-width-wide   : 100px !default;
 
 $susy: (
   columns: 12,
