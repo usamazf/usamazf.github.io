@@ -1,0 +1,56 @@
+- date: 2025-05
+  title: 'Gave a guest lecture on *Introduction to Federated Learning* in the *Security and Privacy* course at Uppsala University.'
+  links:
+    - emoji: "🧑‍🏫"
+      text: "Slides"
+      url: "/files/Introduction_to_Federated_Learning.pdf"
+
+- date: 2025-05
+  title: 'Released preprint of *Bayesian Robust Aggregation for Federated Learning*.'
+  links:
+    - emoji: "📄"
+      text: "Read"
+      url: "https://arxiv.org/pdf/2505.02490"
+    - emoji: "💻"
+      text: "Code"
+      url: "https://github.com/SciML-FL/bra-fl"
+
+- date: 2025-03
+  title: 'Released preprint of *Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework*.'
+  links:
+    - emoji: "📄"
+      text: "Read"
+      url: "https://arxiv.org/pdf/2503.20884"
+    - emoji: "💻"
+      text: "Code"
+      url: "https://github.com/SciML-FL/gan-filter"
+
+- date: 2025-02
+  title: 'Delivered two lectures on *Apache Spark* in *Data Engineering I* at Uppsala University.'
+  links:
+    - emoji: "🧑‍🏫"
+      text: "Lecture 1"
+      url: "/files/Introduction_to_Apache_Spark-Lecture_1.pdf"
+    - emoji: "🧑‍🏫"
+      text: "Lecture 2"
+      url: "/files/Introduction_to_Apache_Spark-Lecture_2.pdf"
+
+- date: 2023-11
+  title: 'Our paper *Decentralized and Incentivized Federated Learning: A Blockchain-Enabled Framework Utilising Compressed Soft-Labels and Peer Consistency* has been accepted to **IEEE Transactions on Services Computing**.'
+  links:
+    - emoji: "📄"
+      text: "Read"
+      url: "https://doi.org/10.1109/TSC.2023.3336980"
+    - emoji: "💻"
+      text: "Code"
+      url: "https://github.com/Tsinghua-FL-Team/decentralized-FD"
+
+- date: 2023-05
+  title: 'Presented a poster on *GAN-Based Defense Framework* at the SWITS Annual Workshop.'
+  links:
+    - emoji: "🖼️"
+      text: "Poster"
+      url: "/files/SWITS_UU_2023_Poster.pdf"
+
+- date: 2023-02
+  title: 'Started Ph.D. in *Scientific Computing* at Uppsala University.'

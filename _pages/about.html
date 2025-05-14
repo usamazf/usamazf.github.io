@@ -1,0 +1,79 @@
+---
+permalink: /
+title: "Usama Zafar"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<section>
+  <h2>🎓 About Me</h2>
+  <p>
+    I am a third-year Ph.D. candidate in <em>Scientific Computing</em> at 
+    <a href="https://www.uu.se/en" target="_blank">Uppsala University</a>, 
+    where I am supervised by Associate Professor 
+    <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N7-398" target="_blank">Salman Toor</a>.
+  </p>
+  <p>
+    Prior to this, I completed a Master's degree in <em>Advanced Computing Science</em> at 
+    <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>, Beijing, China, 
+    and a Bachelor's degree in <em>Software Engineering</em> at the 
+    <a href="https://nust.edu.pk/" target="_blank">National University of Sciences and Technology (NUST)</a>, Pakistan.
+  </p>
+</section>
+
+<section>
+  <h2>🔬 Research Interests</h2>
+  <p>
+    My research lies at the intersection of distributed optimization, distributed machine learning, and federated learning. 
+    I am particularly interested in adversarial robustness, and the security and privacy challenges 
+    that arise in decentralized systems.
+  </p>
+</section>
+
+<!-- <section>
+  <h2>🗞️ Latest News</h2>
+  <ul style="list-style: none;">
+    {% assign sorted_news = site.data.latest | sort: "date" | reverse %}
+    {% for item in sorted_news %}
+      <li>
+        <strong>{{ item.date }}</strong>&nbsp;»&nbsp;{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% if item.links and item.links.size > 0 %}
+          &nbsp;
+          [
+          {% for link in item.links %}
+            {{ link.emoji }} <a href="{{ link.url | relative_url }}">{{ link.text }}</a> {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
+          {% endfor %}
+          ]
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section> -->
+
+<h2>🗞️ Latest News</h2>
+<table>
+  <tbody>
+    {% assign sorted_news = site.data.latest | sort: 'date' | reverse %}
+    {% for item in sorted_news %}
+      <tr>
+        <td style="vertical-align: top; white-space: nowrap; padding-left: 50px; padding-right: 5px;"><strong>{{ item.date }}</strong>&nbsp;»&nbsp;</td>
+        <td style="vertical-align: top; padding-left: 5px;">
+          {{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% if item.links %}
+            &nbsp;
+            [
+            {% for link in item.links %}
+              {{ link.emoji }} <a href="{{ link.url | relative_url }}">{{ link.text }}</a> {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
+            {% endfor %}
+            ]
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<br/>

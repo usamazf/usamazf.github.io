@@ -14,64 +14,30 @@ name                     : &name "Usama Zafar"
 description              : &description "Ph.D. student at Division of Scientific Computing, Department of Information Technology, Uppsala University."
 url                      : https://usamazf.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "usamazf.github.io"
+repository               : "usamazf/usamazf.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "me.jpg"
   name             : "Usama Zafar"
-  pronouns         : # example: "she/her"  
-  bio              : "Building robust, decentralized AI systems with a focus on security and scalability."
+  bio              : "Exploring robustness, privacy, and trust in federated and decentralized AI systems."
   location         : "Uppsala, Sweden"
   employer         : "Uppsala University"
-  uri              : "https://www.uu.se/kontakt-och-organisation/personal?query=N22-2641"
   email            : "usama.zafar@it.uu.se" 
+  # uri              : # URL
 
   # Academic websites
-  arxiv            : "https://arxiv.org/a/0000-0002-8619-0540.html"
   googlescholar    : "https://scholar.google.com/citations?user=aBMbykIAAAAJ&hl"
-  impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-8619-0540"
-  semantic         : # URL
-  pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Usama-Zafar-13"
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "usamazf"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : usamazf
 
   # Social media
-  bluesky          : # Username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : usamazf
-  mastodon         : # URL
-  medium           : https://medium.com/@usamazf
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
   twitter          : usamazf
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -166,6 +132,7 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - temp_files
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
