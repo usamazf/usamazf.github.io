@@ -59,7 +59,7 @@ redirect_from:
     {% assign sorted_news = site.data.latest | sort: 'date' | reverse %}
     {% for item in sorted_news %}
       <tr>
-        <td style="border-style: hidden!important; vertical-align: top; white-space: nowrap; padding-left: 50px; padding-right: 5px;"><strong>{{ item.date }}</strong>&nbsp;»&nbsp;</td>
+        <td style="border-style: hidden!important; vertical-align: top; white-space: nowrap; "><strong>{{ item.date }}</strong>&nbsp;»&nbsp;</td>
         <td style="border-style: hidden!important; vertical-align: top; padding-left: 5px;">
           {{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
           {% if item.links %}
