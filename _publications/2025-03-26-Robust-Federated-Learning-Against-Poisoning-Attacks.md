@@ -8,6 +8,7 @@ date: 2025-03-26
 venue: 'Preprint, arXiv:2503.20884'
 paperurl: 'https://arxiv.org/pdf/2503.20884'
 authors: <b>Usama Zafar</b>, André Teixeira, and Salman Toor
+citation: 'Usama Zafar, André Teixeira, Salman Toor. "Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework." (2025).'
 doi: 
 ---
 ### Abstract

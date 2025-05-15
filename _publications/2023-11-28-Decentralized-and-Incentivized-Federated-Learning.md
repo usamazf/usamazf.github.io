@@ -8,6 +8,7 @@ date: 2023-11-28
 venue: 'IEEE Transactions on Services Computing'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10330055'
 authors: Leon Witt, <b>Usama Zafar</b>, KuoYeh Shen, Felix Sattler, Dan Li, Songtao Wang, and Wojciech Samek
+citation: 'Witt, Leon, Usama, Zafar, KuoYeh, Shen, Felix, Sattler, Dan, Li, Songtao, Wang, Wojciech, Samek. "Decentralized and Incentivized Federated Learning: A Blockchain-Enabled Framework Utilising Compressed Soft-Labels and Peer Consistency". IEEE Transactions on Services Computing 17. 4(2024): 1449-1464.'
 doi: 10.1109/TSC.2023.3336980.
 ---
 ### Abstract
