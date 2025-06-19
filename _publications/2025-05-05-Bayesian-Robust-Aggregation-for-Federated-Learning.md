@@ -7,7 +7,7 @@ excerpt: ""
 date: 2025-05-05
 venue: 'Preprint, arXiv:2505.02490'
 paperurl: 'https://arxiv.org/pdf/2505.02490'
-authors: Aleksandr Karakulev, <b>Usama Zafar</b>, Salman Toor, and Prashant Singh
+authors: Aleksandr Karakulev*, <b>Usama Zafar*</b>, Salman Toor, and Prashant Singh
 citation: 'Aleksandr Karakulev, Usama Zafar, Salman Toor, and Prashant Singh. "Bayesian Robust Aggregation for Federated Learning." (2025).'
 doi: 
 ---
