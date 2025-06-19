@@ -21,7 +21,7 @@ redirect_from:
   <li>
     <strong>Freelance Developer</strong> <br>
     <em>Dec 2021 – Dec 2022</em>, Freelancer.com<br>
-    Delivered over 50 projects in CV, ML, automation, scraping, and backend. Top 1% freelancer by performance.
+    Delivered over 50 projects related to Computer Vision, Machine Learning, automation, Web-scraping, and Backend-end development. Top 1% freelancer by performance.
   </li>
   <li>
     <strong>Software Engineer</strong><br>
@@ -59,12 +59,12 @@ redirect_from:
   {% endfor %}
 </ul>
 
-<h2>📖 Teaching</h2>
+<!-- <h2>📖 Teaching</h2>
 <ul class="clean-list">
   {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
-</ul>
+</ul> -->
 
 
 <h2>🏆 Awards & Achievements</h2>
